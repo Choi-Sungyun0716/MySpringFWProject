@@ -10,9 +10,11 @@
 		location="classpath:values.properties" />
 
 	<!-- 전략 2 시작 bean을 어노테이션으로 선언하고 스캐닝하기 -->
+	
 	<!-- Component Scanning -->
 	<context:component-scan
 		base-package="myspring.di.annot" />
+		
 	<!-- 전략 2 종료 -->
 
 
